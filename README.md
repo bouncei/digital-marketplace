@@ -1,4 +1,4 @@
-# digital-marketplace
+# Digital Marketplace
 A digital marketplace written in Solidity following the ERC-721 standard.
 
 ## More Infomation
