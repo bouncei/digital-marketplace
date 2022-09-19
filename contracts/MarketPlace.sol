@@ -20,7 +20,7 @@ contract NFT is ERC721URIStorage {
     address contractAddress;  
 
 
-    constructor(address marketplaceAddress) ERC721("Tribal's Digital Marketplace", "TDM") {
+    constructor(address marketplaceAddress) ERC721("TriBBBal's Digital Marketplace", "TBM") {
         contractAddress = marketplaceAddress;
 
     }
@@ -49,7 +49,7 @@ contract NFTMarket is ReentrancyGuard {
 
 
     address payable owner;
-    uint256 listingPrice = 0.025 ether;
+    uint256 listingPrice = 0.07 ether;
 
 
     constructor() {

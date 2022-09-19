@@ -4,11 +4,11 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract TribalToken is ERC721URIStorage {
+contract TriBBBalToken is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("TribalToken", "TBT") {}
+    constructor() ERC721("TriBBBalToken", "TBT") {}
 
     function awardItem(address player, string memory tokenURI)
         public
